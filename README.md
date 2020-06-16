@@ -1,5 +1,5 @@
 # pd_extern_example
-Example external puredata objects in C, with my notes as comments. 
+Example external puredata objects in C, with my notes as comments. Any build steps will be intended for a Linux environment
 
 ## References  
 
