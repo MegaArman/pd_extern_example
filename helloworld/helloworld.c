@@ -3,7 +3,7 @@
  */
 
 //Get the Pure Data headers from: https://github.com/pure-data/pure-data/blob/master/src/m_pd.h
-#include "m_pd.h"
+#include "../m_pd.h"
 
 // PureData "class" declaration with t_class
 static t_class *helloworld_class;
