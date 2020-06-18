@@ -9,10 +9,9 @@
 static t_class *helloworld_class;
 
 //class interface
-typedef struct _helloworld {
+typedef struct _helloworld { 
   t_object  x_obj; //mandatory object internal
-} t_helloworld;
-
+} t_helloworld; //this is the type name you will use
 
 /**
  * this method is called whenever a "bang" is sent to the object
@@ -41,7 +40,6 @@ void *helloworld_new(void)
   //must return pointer to the class
   return (void *)x;
 }
-
 
 /**
  * define the function-space of the class
