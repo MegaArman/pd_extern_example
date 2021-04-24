@@ -38,7 +38,7 @@ void counter_setup(void) {
                               (t_newmethod)counter_new,
                               0, 
                               sizeof(t_counter),
-                              CLASS_DEFAULT,
+                              CLASS_DEFAULT, //graphical patch with one inlet
                               A_DEFFLOAT, 0); /* the object takes one argument which is a floating-point and defaults to 0 */
 
     /* call a function when object gets banged */
