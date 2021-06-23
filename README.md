@@ -8,7 +8,7 @@ To summarize creating externs for PureData:
 2. build your object with Make, can modify the helloworld example's
 3. open a .pd patch that uses your object and wire it to what it needs to be wired to
 
-NOTE: a pd object can't be named with spaces or hyphens, keep this in mind when calling gensym. You also need to name the functions with that symbol's name included, ex: ```helloworld_setup```
+NOTE: a pd object can't be named with spaces or hyphens, keep this in mind when calling gensym. Underscores are OK
 
 ## helloworld 
 you will see the pd patch contains a bang. Click the bang, then Window->Pd window to see the output. shows how to use inlets.
